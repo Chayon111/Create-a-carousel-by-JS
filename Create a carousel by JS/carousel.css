@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg-window{
+    background-color: #b3b3b3;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.our-reviews{
+    margin: 5%;
+    background-color: #c5c5c5;
+    box-shadow: 0px 0px 8px #ffffff;
+}
+
+#header-hr{
+    border: 2px solid #0000e6;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 7px -8px 2px #1900ff;
+}
+
+@media screen and (max-width: 400px) {
+    .bg-window {
+      height: 100%;
+    }
+    #img{
+        width: 200px;
+        height: 200px;
+    }
+    .badge{
+        font-size: 10px!important;
+    }
+    #reviews{
+        margin-top: 10px;
+    }
+    .btn{
+        margin-bottom: 10px;
+    }
+    
+  }
